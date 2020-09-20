@@ -1,0 +1,15 @@
+version: "3"
+services:
+  client:
+    container_name: tracking_app_client
+    build: ./client-vue
+    ports:
+      - "8080:8080"
+    depends_on:
+      - "api"
+
+  api:
+    container_name: tracking_app_api
+    build: ./backend-node
+    ports:
+      - "8000:8000"
