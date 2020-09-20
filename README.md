@@ -18,10 +18,6 @@
   <br />
   <br />
   <br />
-  <br />
-  <br />
-  <br />
-  <br />
 </div>
 
 ### frontend stack:
@@ -57,3 +53,16 @@ backend: `http://localhost:8000`
 
 Backend generates mock data every `4` seconds, and frontend poll the data every `5` seconds.
 To change the configuration please view go to `/backend-node/configs/app.js`; for frontend `client-vue/.env`.
+
+#### Screenshots
+
+<div align="center">
+  <h1>
+    <br/>
+    <br/>
+    <img src="./static/scr1.png" />
+    <br />
+    <br />
+    <br />
+  </h1>
+</div>
